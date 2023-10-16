@@ -1,0 +1,19 @@
+body{
+    color: var(--text-color); /*sets the foreground color for body*/
+}
+
+a{
+    color: var(--text-color); /*sets forground color for all anchor elements*/
+}
+
+.visually-hidden{
+    display: none; /*hides elements with the class*/
+}
+
+.card-category{
+    color: var(--color-primary); /*sets foreground color for all card-category*/
+}
+
+.section-tagline{
+    color: var(--color-primary); /*sets foreground for all*/
+}

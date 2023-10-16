@@ -1,0 +1,4 @@
+/*style anchor elements with no decoration*/
+a{
+    text-decoration: none;
+}

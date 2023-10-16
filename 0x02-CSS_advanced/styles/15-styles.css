@@ -1,0 +1,4 @@
+/* using universal box rule */
+* {
+    box-sizing: border-box;
+  }

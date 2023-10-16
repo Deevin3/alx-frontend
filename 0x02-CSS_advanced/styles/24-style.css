@@ -1,0 +1,16 @@
+/* add background and hover state services */
+.card-services .card-title{
+    margin: 0;
+}
+
+.card-services a{
+    display: block;
+    padding: calc(var(--root) * 2);
+    background-color: var(--color-light-grey);
+}
+
+.card-services a:hover{
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}

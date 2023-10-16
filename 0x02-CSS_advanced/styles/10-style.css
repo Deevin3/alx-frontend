@@ -1,0 +1,11 @@
+/*create a new custom property*/
+:root{
+    --section-header-align: center;
+} 
+  .section-header {
+    text-align: var(--section-header-align);
+  }
+
+.section-header{
+    text-align: var(--section-header-align);
+}

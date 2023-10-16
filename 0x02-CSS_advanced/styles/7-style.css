@@ -1,0 +1,5 @@
+/*add more fonts*/
+:root{
+    --font-family-base: "Open Sans" "Helvetica Neue", "Helvetica", "Ariel", "sans-serif";
+    --font-family-title: "Raleway" "Helvetica Neue", "Helvetica", "Ariel", "sans-serif";
+}

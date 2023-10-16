@@ -1,0 +1,11 @@
+/* targeting anchor tag elements */
+a[href]:visited{
+    font-style: italic;
+}
+
+a[href]:hover{
+    text-decoration: underline;
+}
+a[active]{
+    background-color: var(--color-light-grey)
+}
