@@ -1,14 +1,15 @@
 /* more custom properties */
-:root{
+:root {
     --transition-duration: .3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01)
 }
 
-.card-work:hover .card-image{
+.card-work:hover .card-image {
     transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work:hover .card-outer{
+.card-work:hover .card-outer git {
     transform: scale(0.95);
 }
 
@@ -16,15 +17,15 @@
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.botton:hover{
-    transition-property: color, background-color;
+.botton:hover {
     transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
 }
 
-.card-work:hover .card-image{
+.card-work:hover .card-image {
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work .card-inner{
+.card-work .card-inner {
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
