@@ -1,19 +1,16 @@
-body{
-    color: var(--text-color); /*sets the foreground color for body*/
+/* creating body, a, classes foreground colors and display none to .visually-hidden */
+html {
+    scroll-behavior: smooth;
 }
 
-a{
-    color: var(--text-color); /*sets forground color for all anchor elements*/
+body, a {
+    color: #161616;
 }
 
-.visually-hidden{
-    display: none; /*hides elements with the class*/
+.visually-hidden {
+    display: none;
 }
 
-.card-category{
-    color: var(--color-primary); /*sets foreground color for all card-category*/
-}
-
-.section-tagline{
-    color: var(--color-primary); /*sets foreground for all*/
+.card-category, .section-tagline {
+    color: #D73953;
 }
